@@ -1,0 +1,17 @@
+###
+
+Get http://localhost:3000/api/goods
+
+###
+Get http://localhost:3000/api/goods 
+
+### 
+POST http://localhost:3000/goods 
+content-type: application/json 
+
+{ 
+  "goodsId": 2, 
+  "name": "시원한 콜라", 
+  "thumbnailUrl": "https://encrypted-tb"
+}
+
