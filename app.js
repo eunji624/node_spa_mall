@@ -66,7 +66,7 @@ app.use(express.json());
 app.use(express.json());
 
 app.use("/api", [goodsRouter, cartsRouter]);
-//이 use는 전역 미들웨어.
+//이 use는     전역 미들웨어.
 //이런식으로도 사용 할 수 있다.
 // app.use("/api", [goodsRouter, appRouter])  이렇게 배열형식으로도 가능.
 
